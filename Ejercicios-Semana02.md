@@ -2,4 +2,4 @@
 
 Se ha elegido nave como entorno virtual. Se han instalado las versiones 0.11.16, 4.9.1 y 14.13.1.
 
-![](https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image1.png)
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image1.png" width="75%" height="75%">
