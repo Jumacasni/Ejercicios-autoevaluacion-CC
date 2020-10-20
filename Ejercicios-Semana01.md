@@ -4,7 +4,9 @@ Como aplicación he elegido ImagymBot, que fue mi TFG del Grado en Ingenieria In
 
 El patrón que usa es una arquitectura en capas. Consta de 3 capas: una capa de presentación (usuarios de Telegram), una capa de negocio (servidor donde se almacena el bot), y una capa de datos (servidor de la base de datos). En la siguiente imagen se muestra un esquema de cómo quedaría esta arquitectura.
 
-Para evolucionar a un patrn tipo microservicio, deberíamos desplegar de forma independiente tanto el servidor del bot como el servidor de la base de datos. Tendríamos un núcleo principal que se encarga de recibir y enviar peticiones de los dos servicios y responder a los distintos eventos que realizan los usuarios.
+![](https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/image1.png)
+
+Para evolucionar a un patrón tipo microservicio, deberíamos desplegar de forma independiente tanto el servidor del bot como el servidor de la base de datos. Tendríamos un núcleo principal que se encarga de recibir y enviar peticiones de los dos servicios y responder a los distintos eventos que realizan los usuarios.
 
 ### En la aplicación que se ha usado como ejemplo en el ejercicio anterior, ¿podría usar diferentes lenguajes? ¿Qué almacenes de datos serían los más convenientes?
 
