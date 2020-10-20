@@ -35,3 +35,19 @@ Al cambiar el assert, se ejecuta **Mocha** de nuevo y se puede ver que pasa los 
 <img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image7.png" width="60%" height="60%">
 
 <img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image9.png" width="60%" height="60%">
+
+### Ejercicio 5: Haced los dos primeros pasos antes de pasar al tercero (integración continua).
+
+Los dos pasos a realizar son:
+
+1. Darse de alta. Muchos están conectados con GitHub por lo que puedes usar directamente el usuario ahí. A través de un proceso de autorización, acceder al contenido e incluso informar del resultado de los tests.
+
+2. Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
+
+Se ha activado Travis en [este repositorio]{https://github.com/Jumacasni/Gestion-porras-futbol}. Se ha añadido un archivo **.travis.yml** con la configuración que se muestra en la siguiente imagen.
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image10.png" width="60%" height="60%">
+
+En la página de Travis se puede comprobar que se ha ejecutado el código del archivo **.travis.yml** con éxito, tal y como se muestra en la siguiente imagen.
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image11.png" width="60%" height="60%">
