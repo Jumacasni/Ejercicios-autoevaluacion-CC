@@ -17,3 +17,21 @@ Se han creado dos nuevas apuestas de igual contenido, con dos aserciones que ver
 <img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image3.png" width="75%" height="75%">
 
 <img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image4.png" width="75%" height="75%">
+
+A continuación, en `Apuesta.js` se ha creado una nueva función que devuelve los goles de la apuesta en formato string y con un espacio en blanco añadido, tal y como es muestra en la siguiente imagen.
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image5.png" width="75%" height="75%">
+
+Se ha añadido un nuevo test que testea la función `goles_string`. Se ha creado una nueva apuesta y, usando `assert`, se ha testeado que el resultado es el esperado.
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image6.png" width="75%" height="75%">
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image8.png" width="75%" height="75%">
+
+Se puede ver en las dos imágenes anteriores que el test ha fallado porque en el assert se ha indicado que se espera como salida un string "0-1", pero la función `goles_string` en realidad devuelve "0-1 " (un espacio adicional).
+
+Al cambiar el assert, se ejecuta **Mocha** de nuevo y se puede ver que pasa los test perfectamente.
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image7.png" width="75%" height="75%">
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image9.png" width="75%" height="75%">
