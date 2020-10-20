@@ -44,10 +44,10 @@ Los dos pasos a realizar son:
 
 2. Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
 
-Se ha activado Travis en [este repositorio]{https://github.com/Jumacasni/Gestion-porras-futbol}. Se ha añadido un archivo **.travis.yml** con la configuración que se muestra en la siguiente imagen.
+Se ha activado Travis en [este repositorio](https://github.com/Jumacasni/Gestion-porras-futbol). Se ha añadido un archivo **.travis.yml** con la configuración que se muestra en la siguiente imagen.
 
 <img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image10.png" width="60%" height="60%">
 
 En la página de Travis se puede comprobar que se ha ejecutado el código del archivo **.travis.yml** con éxito, tal y como se muestra en la siguiente imagen.
 
-<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image11.png" width="60%" height="60%">
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image11.png" width="80%" height="80%">
