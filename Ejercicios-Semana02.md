@@ -10,6 +10,14 @@ Para crear una descripción del módulo usando Nodejs se usa la orden `npm init`
 
 <img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image2.png" width="60%" height="60%">
 
+### Ejercicio 3: Descargar el repositorio de ejemplo anterior, instalar las herramientas necesarias (principalmente Scala y sbt) y ejecutar el ejemplo desde sbt. Alternativamente, buscar otros marcos para REST en Scala tales como Finatra o Scalatra y probar los ejemplos que se incluyan en el repositorio.
+
+Se ha ejecutado **sbt** y se ha utilizado primero `test` y luego `re-start` para comenzar la aplicación. Una vez hecho esto, se han hecho distintas peticiones mediante `curl`.
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image12.png" width="60%" height="60%">
+
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/semana2-image13.png" width="60%" height="60%">
+
 ### Ejercicio 4: Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga. A continuación, ejecutarlos desde mocha (u otro módulo de test de alto nivel), usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante.
 
 Se han creado dos nuevas apuestas de igual contenido, con dos aserciones que verifican que se han creado correctamente y que la salida de la función `as_string` es correcta, respectivamente. También se han añadido dos nuevas aserciones que verifican que `apuesta2` y `apuesta3` tienen el mismo contenido, y que `nueva_apuesta` y `apuesta2` tienen un contenido diferente. En las dos siguientes imágenes se puede comprobar esto.
