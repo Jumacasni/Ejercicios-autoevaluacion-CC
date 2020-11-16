@@ -30,4 +30,4 @@ El tamaño de cada imagen es el siguiente:
 
 ### Ejercicio 4: Examinar la estructura de capas que se forma al crear imágenes nuevas a partir de contenedores que se hayan estado ejecutando.
 
-<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/tema3-image5.png" width="60%" height="60%">
+<img src="https://github.com/Jumacasni/Ejercicios-autoevaluacion-CC/blob/main/images/tema3-image5.png" width="75%" height="75%">
